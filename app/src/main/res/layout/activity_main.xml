@@ -17,28 +17,28 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:text="FEATURING"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#FFFFFF"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:text="ALAN WEISS"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#FFFFFF"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:text="FAST COMPANY"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#FFFFFF"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:text="BON APETTI"/>
 
         </LinearLayout>
