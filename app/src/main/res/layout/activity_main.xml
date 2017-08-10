@@ -9,7 +9,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/background"
-            android:scaleType="fitXY"/>
+            android:scaleType="centerCrop"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -86,7 +86,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:textColor="#FFFFFF"
+                                    android:textColor="#66FFFFFF"
                                     android:textSize="12sp"
                                     android:text="3 mins"/>
 
