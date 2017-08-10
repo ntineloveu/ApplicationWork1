@@ -3,9 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    android:layout_margin="3dp"
     tools:context="com.example.jittarin.myapplication.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background"
+            android:scaleType="fitXY"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -65,7 +69,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="#FFFFFF"
-                            android:textSize="24dp"
+                            android:textSize="24sp"
                             android:text="World's Best Stargazing Site"/>
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -76,14 +80,14 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:textColor="#FFFFFF"
-                                    android:textSize="14dp"
+                                    android:textSize="16sp"
                                     android:text="Nationnal Geographic "/>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:textColor="#FFFFFF"
-                                    android:textSize="10dp"
+                                    android:textSize="12sp"
                                     android:text="3 mins"/>
 
                         </LinearLayout>
